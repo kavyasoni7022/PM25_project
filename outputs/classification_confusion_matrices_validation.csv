@@ -1,0 +1,17 @@
+Model,Actual,Predicted,Count
+Persistence baseline,0,0,1616
+Persistence baseline,0,1,79
+Persistence baseline,1,0,79
+Persistence baseline,1,1,414
+Logistic Regression,0,0,1617
+Logistic Regression,0,1,78
+Logistic Regression,1,0,78
+Logistic Regression,1,1,415
+Random Forest,0,0,1611
+Random Forest,0,1,84
+Random Forest,1,0,69
+Random Forest,1,1,424
+Linear SVM,0,0,1588
+Linear SVM,0,1,107
+Linear SVM,1,0,64
+Linear SVM,1,1,429

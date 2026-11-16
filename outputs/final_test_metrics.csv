@@ -1,0 +1,8 @@
+Experiment,Model,Dataset,Rows,MAE,RMSE,Precision,Recall,F1,PR_AUC
+Pooled regression,SVR,Pooled test,1098,11.455031054159193,18.64677649142746,,,,
+Pooled regression,Persistence,Pooled test,1098,11.631566484517304,19.439030817550627,,,,
+Pooled regression,7-day mean,Pooled test,1098,14.105681759042415,22.479301654282008,,,,
+Classification,Logistic Regression,Pooled test,1098,,,0.7428571428571429,0.8609271523178808,0.7975460122699386,0.865190632547421
+Unseen-city regression,Unseen-city SVR,Mumbai + Guwahati (common rows),358,12.107026881318005,21.54044228189146,,,,
+Unseen-city regression,Persistence,Mumbai + Guwahati (common rows),358,11.995921787709497,22.90682782259156,,,,
+Unseen-city regression,7-day mean,Mumbai + Guwahati (common rows),358,16.089756584197925,25.876362906818496,,,,

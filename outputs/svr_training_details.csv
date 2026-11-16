@@ -1,0 +1,2 @@
+Model,Best_C,Best_gamma,Epsilon,Training_search_minutes,Validation_prediction_seconds,Training_CV_MAE
+SVR (RBF),100,0.01,0.1,1.5632622525999997,2.4556559979999975,20.9689331719161

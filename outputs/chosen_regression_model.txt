@@ -1,0 +1,24 @@
+
+Final Regression Model: SVR (RBF)
+
+Selected model: Support Vector Regression with an RBF kernel.
+
+Selected hyperparameters:
+- C = 100
+- gamma = 0.01
+- epsilon = 0.1
+
+Reason for selection:
+SVR achieved the lowest validation MAE of 15.6688 and
+validation RMSE of 27.6487. It improved MAE by approximately
+4.32% compared with the persistence baseline.
+
+Random Forest was within 2% of the best MAE, but it uses
+an ensemble of 300 decision trees and is not clearly a
+simpler alternative to RBF-SVR. The simpler linear models
+were more than 2% away from the best MAE.
+
+Random Forest remains a close alternative, with slightly
+lower RMSE and faster prediction time.
+
+The test set has not been used for model selection.
