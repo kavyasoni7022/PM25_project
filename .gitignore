@@ -1,0 +1,25 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local environment and secrets
+.env
+*.pem
+*.key
+
+# Generated project data
+data/
+outputs/
+
+# Temporary files
+*.log
+.DS_Store
