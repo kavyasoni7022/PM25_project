@@ -755,6 +755,18 @@ The raw dataset and prepared CSV files are not redistributed through this reposi
 The notebooks can be opened using Google Colab or a local Jupyter Notebook environment.
 
 Execute the notebooks in numerical order, beginning with data understanding and continuing through feature engineering, modelling, test evaluation, export and visualisation.
+Before running the notebooks in Google Colab:
+
+1. Upload the downloaded `city_day.csv` file to your Google Drive.
+2. Create a folder named `PM25_project` in `MyDrive`.
+3. Inside it, create a folder named `data`.
+4. Place `city_day.csv` inside the `data` folder.
+
+The expected file path is:
+
+`/content/drive/MyDrive/PM25_project/data/city_day.csv`
+
+Mount Google Drive in Colab before executing the data-loading cells.
 
 ### 14.3 Maintain the Experimental Setup
 
